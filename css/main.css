@@ -101,6 +101,53 @@ ul li{
 #farmacia{
     padding-top: 70px;
 }
+
 .titulofarmacia{
     margin: 0;
+}
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 80px;
+    background-color: #FFFAF5;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #EE8B48;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+    margin-bottom: -50px;
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #EE8B48;
+    border-bottom: 1px solid #EE8B48;
+    border-left: 1px solid #EE8B48;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 10px 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.duvida.ativa .paragrafo {
+    opacity: 1;
+    height: fit-content;
+    overflow: 24px;
+    padding: 60px 24px 10px 24px;
 }
