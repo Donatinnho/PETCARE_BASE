@@ -111,3 +111,29 @@ ul li{
     padding: 10px;
 }
 
+.farmacia {
+    position: flex;
+    padding: 20px 0px;
+    width: 400px;
+    height: 350px;
+
+}
+
+#farmacia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragrafofarmacia{
+    padding: 0px 400px;
+    margin-bottom: 60px;
+}
+#farmacia{
+    padding-top: 70px;
+}
+
+
+.titulofarmacia{
+    margin-top: 50px;
+}
